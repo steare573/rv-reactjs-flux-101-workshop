@@ -23,7 +23,7 @@ var OrderDetail = module.exports = React.createClass({
     if (this.props.order.orderId) {
       Object.keys(this.props.order).forEach(function (propName) {
         fields.push(
-          <li style={{padding: '.5em'}}><FormField meta={{type: 'display'}} name={propName} value={this.props.order[propName]} key={'order-detail-' + this.props.orderId + '-' + propName} /></li>
+          <li style={{padding: '.5em'}} key={'order-detail-li-' + this.props.order.orderId + propName}><FormField meta={{type: 'display'}} name={propName} value={this.props.order[propName]} key={'order-detail-' + this.props.orderId + '-' + propName} /></li>
         );
       }.bind(this));
 

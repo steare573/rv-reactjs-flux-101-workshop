@@ -36,7 +36,7 @@ var OrderList = React.createClass({
       var orderLinks = [];
       this.props.orderList.forEach(function(curOrder) {
         orderLinks.push(
-          <li style={{padding: '.5em'}}>
+          <li style={{padding: '.5em'}} key={'order-list-list-item' + curOrder.orderId}>
             <button style={{outline: 'none', color: '#ffffff', backgroundColor: '#0072ff', borderRadius: '8px', padding: '.5em', border: 'none', textTransform: 'uppercase', display: 'inline-block', width: '50px'}} onClick={this.setActiveOrderFunction(curOrder.orderId)}>{curOrder.orderId}</button>
             <span style={{display: 'inline-block', padding: '10'}}>{curOrder.firstName}</span>
             <span style={{display: 'inline-block'}}>{curOrder.lastName}</span>

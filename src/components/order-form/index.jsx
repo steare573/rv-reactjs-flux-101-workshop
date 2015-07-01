@@ -57,7 +57,7 @@ var OrderForm = module.exports = React.createClass({
       Object.keys(this.props.order).forEach(function (propName) {
         meta = (propName == 'orderId') ? {type: 'text', disabled: true} : {type: 'text'};
         fields.push(
-          <li style={{padding: '.5em'}}><FormField meta={meta} name={propName} value={this.props.order[propName]} key={'order-detail-' + this.props.orderId + '-' + propName} changeHandler={this.onChangeFunction(this.props.order.orderId)}/></li>
+          <li style={{padding: '.5em'}} key={'order-form-li-' + this.props.order.orderId + propName}><FormField meta={meta} name={propName} value={this.props.order[propName]} key={'order-detail-' + this.props.orderId + '-' + propName} changeHandler={this.onChangeFunction(this.props.order.orderId)}/></li>
         );
       }.bind(this));
 
