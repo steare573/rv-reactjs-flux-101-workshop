@@ -44,4 +44,6 @@ npm -g grunt webpack
 		* [Flux framework comparison](https://github.com/voronianski/flux-comparison)
 * [Webpack](http://webpack.github.io/)
 * [Browserify](http://browserify.org/)
+* [Mocha](http://mochajs.org/)
+	* [Testing React Components w/ Mocha](http://www.hammerlab.org/2015/02/14/testing-react-web-apps-with-mocha/)
 	
