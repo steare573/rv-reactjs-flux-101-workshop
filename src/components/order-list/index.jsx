@@ -46,7 +46,7 @@ var OrderList = React.createClass({
 
       return (
         <div style={{padding: '.5em'}}>
-          <div style={{color:'#0072ff', fontSize: '1.5em'}}>Order Form Component</div>
+          <div style={{color:'#0072ff', fontSize: '1.5em'}}>Order List Component</div>
           <ul style={{listStyleType: 'none'}}>
             {orderLinks}
           </ul>
@@ -58,7 +58,7 @@ var OrderList = React.createClass({
       // if we don't have any orders in the list, let our user know
       return (
         <div style={{padding: '.5em'}}>
-          <div style={{color:'#0072ff', fontSize: '1.5em'}}>Order Form Component</div>
+          <div style={{color:'#0072ff', fontSize: '1.5em'}}>Order List Component</div>
           No Orders In List
         </div>
       );
