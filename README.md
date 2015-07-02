@@ -46,4 +46,13 @@ npm -g grunt webpack
 * [Browserify](http://browserify.org/)
 * [Mocha](http://mochajs.org/)
 	* [Testing React Components w/ Mocha](http://www.hammerlab.org/2015/02/14/testing-react-web-apps-with-mocha/)
+* Interesting React Projects
+	* [Using React w/ Angular](https://github.com/davidchang/ngReact)
+	* [ScalaJS w/ React](https://github.com/japgolly/scalajs-react) | [Example](https://japgolly.github.io/scalajs-react/#examples/animation)
+	* [Elixir Server Side Rendering of React Components](https://github.com/awetzel/reaxt)
+	* [React Components](https://github.com/dataminr/react-components)
+	* [Joe Hudson React Libs](https://github.com/jhudson8/react-chartjs)
+	* [React Native - React for Native Android/ios Apps](https://facebook.github.io/react-native/)
+	* [D3 Data Visualization Component](https://github.com/esbullington/react-d3)
+	
 	
