@@ -35,6 +35,8 @@ npm -g grunt webpack
 	* [React Rocks](http://react.rocks/)
 	* [Awesome React](https://github.com/enaqx/awesome-react)
 	* [Github](https://github.com/facebook/react)
+	* [React v0.13.0 Beta](https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html)
+		* Use ES6 (Native classes being the main focus relating to React)
 * [Flux](https://facebook.github.io/flux/)
 	* [Github](https://github.com/facebook/flux)
 	* Other flux frameworks
@@ -56,3 +58,5 @@ npm -g grunt webpack
 	* [D3 Data Visualization Component](https://github.com/esbullington/react-d3)
 	
 	
+###Open Source Project?
+I'm currently trying to come up with a relatively large-scale open source React based project idea that I would like to build.  If you have any interesting ideas that you might want help with (or want to help out on), get in touch with me.
