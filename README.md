@@ -35,6 +35,10 @@ npm -g grunt webpack
 	* [React Rocks](http://react.rocks/)
 	* [Awesome React](https://github.com/enaqx/awesome-react)
 	* [Github](https://github.com/facebook/react)
+	* [React Native - React for Native Android/ios Apps](https://facebook.github.io/react-native/)
+	* [React Addons](https://facebook.github.io/react/docs/addons.html)
+	* [React Test Utils](https://facebook.github.io/react/docs/test-utils.html)
+	* [React Performance Tooling](https://facebook.github.io/react/docs/perf.html)
 	* [React v0.13.0 Beta](https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html)
 		* Use ES6 (Native classes being the main focus relating to React)
 * [Flux](https://facebook.github.io/flux/)
@@ -53,8 +57,8 @@ npm -g grunt webpack
 	* [ScalaJS w/ React](https://github.com/japgolly/scalajs-react) | [Example](https://japgolly.github.io/scalajs-react/#examples/animation)
 	* [Elixir Server Side Rendering of React Components](https://github.com/awetzel/reaxt)
 	* [React Components](https://github.com/dataminr/react-components)
+	* [React Select](https://github.com/JedWatson/react-select)
 	* [Joe Hudson React Libs](https://github.com/jhudson8/react-chartjs)
-	* [React Native - React for Native Android/ios Apps](https://facebook.github.io/react-native/)
 	* [D3 Data Visualization Component](https://github.com/esbullington/react-d3)
 	
 	
