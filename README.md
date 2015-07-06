@@ -35,6 +35,12 @@ npm -g grunt webpack
 	* [React Rocks](http://react.rocks/)
 	* [Awesome React](https://github.com/enaqx/awesome-react)
 	* [Github](https://github.com/facebook/react)
+	* [React Native - React for Native Android/ios Apps](https://facebook.github.io/react-native/)
+	* [React Addons](https://facebook.github.io/react/docs/addons.html)
+	* [React Test Utils](https://facebook.github.io/react/docs/test-utils.html)
+	* [React Performance Tooling](https://facebook.github.io/react/docs/perf.html)
+	* [React v0.13.0 Beta](https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html)
+		* Use ES6 (Native classes being the main focus relating to React)
 * [Flux](https://facebook.github.io/flux/)
 	* [Github](https://github.com/facebook/flux)
 	* Other flux frameworks
@@ -44,4 +50,17 @@ npm -g grunt webpack
 		* [Flux framework comparison](https://github.com/voronianski/flux-comparison)
 * [Webpack](http://webpack.github.io/)
 * [Browserify](http://browserify.org/)
+* [Mocha](http://mochajs.org/)
+	* [Testing React Components w/ Mocha](http://www.hammerlab.org/2015/02/14/testing-react-web-apps-with-mocha/)
+* Interesting React Projects
+	* [Using React w/ Angular](https://github.com/davidchang/ngReact)
+	* [ScalaJS w/ React](https://github.com/japgolly/scalajs-react) | [Example](https://japgolly.github.io/scalajs-react/#examples/animation)
+	* [Elixir Server Side Rendering of React Components](https://github.com/awetzel/reaxt)
+	* [React Components](https://github.com/dataminr/react-components)
+	* [React Select](https://github.com/JedWatson/react-select)
+	* [Joe Hudson React Libs](https://github.com/jhudson8/react-chartjs)
+	* [D3 Data Visualization Component](https://github.com/esbullington/react-d3)
 	
+	
+###Open Source Project?
+I'm currently trying to come up with a relatively large-scale open source React based project idea that I would like to build.  If you have any interesting ideas that you might want help with (or want to help out on), get in touch with me.
