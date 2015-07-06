@@ -41,9 +41,11 @@
     "grunt-jscs": "^1.8.0",
     "grunt-mocha-test": "^0.12.7",
     "grunt-webpack": "^1.0.8",
+    "jsdom": "^3.0.0",
     "jsx-loader": "^0.13.2",
     "mocha": "^2.2.5",
     "node-libs-browser": "^0.5.2",
+    "react-test-utils": "0.0.1",
     "should": "^7.0.1",
     "webpack": "^1.9.12",
     "webpack-dev-server": "^1.9.0"

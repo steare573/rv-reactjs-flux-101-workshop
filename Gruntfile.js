@@ -9,8 +9,28 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-jscs');
+  grunt.loadNpmTasks('grunt-mocha-test');
+  grunt.loadNpmTasks('grunt-jscs');
 
   grunt.initConfig({
+    filesTest: [
+      'test/**/*.test.js'
+    ],
+
+    filesGrunt: [
+      'Gruntfile.js'
+    ],
+
+    filesSrc: [
+      'src/**/*.js',
+      'src/**/*.jsx'
+    ],
+
+    filesAll: [
+      '<%= filesTest %>',
+      '<%= filesGrunt %>',
+      '<%= filesSrc %>'
+    ],
 
     clean: {
       build: ['dest/']
@@ -37,9 +57,21 @@ module.exports = function (grunt) {
           config: '.jscsrc'
         }
       }
+    },
+    mochaTest: {
+      test: {
+        options: {
+          reporter: 'spec',
+          require: ['should', './test/compiler.js'],
+          growl: true
+        },
+        src: ['<%= filesTest %>']
+      }
     }
 
   });
 
   grunt.registerTask('build', ['clean', 'webpack:app']);
+  grunt.registerTask('test', ['mochaTest:test']);
+  grunt.registerTask('lint', ['jshint:all', 'jscs:all']);
 }

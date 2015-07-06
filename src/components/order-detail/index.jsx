@@ -1,5 +1,5 @@
 var React = require('react');
-var FormField = require('../form-field');
+var FormField = require('../form-field.jsx');
 
 /**
  * Component for storing the details of the order passed in this.props.order
@@ -19,6 +19,7 @@ var OrderDetail = module.exports = React.createClass({
    */
   render: function() {
     var fields = [];
+
     // if we have an orderid, lets run through the props and create a display only key val display
     if (this.props.order.orderId) {
       Object.keys(this.props.order).forEach(function (propName) {
@@ -28,7 +29,7 @@ var OrderDetail = module.exports = React.createClass({
       }.bind(this));
 
       return (
-        <div style={{padding: '.5em'}}>
+        <div className='order-detail' style={{padding: '.5em'}}>
           <div style={{color:'#0072ff', fontSize: '1.5em'}}>Order Detail Component</div>
           <ul style={{listStyleType: 'none'}}>
           {fields}
@@ -39,7 +40,7 @@ var OrderDetail = module.exports = React.createClass({
 
     // if we don't have an order, return message telling us that
     return (
-      <div style={{padding: '.5em'}}>
+      <div className='order-detail' style={{padding: '.5em'}}>
         <div style={{color:'#0072ff', fontSize: '1.5em'}}>Order Detail Component</div>
         <div>No Active Order</div>
       </div>
