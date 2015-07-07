@@ -2,7 +2,13 @@
 Step by step project example and pptx for React 101 workshop at Red Ventures July 8, 2015
 
 ###Overview
-Learn the basics of ReactJS and how it is used with the Flux framework and CommonJS libraries to piece together your own fully features framework.  We will first cover The basics of React and the few library specifc constructs you need to know to build a React view layer from scratch.  We will then go into flux to show how this framework can help you organize your application and create a UI that is responsive to your changing data.  Next we will walk through a sample project to show you how they work together in a small, controlled, but somewhat realistic application.  Finally, we will cover why React and Flux worked well for our Reactor project, the benefits it provided, a few of the obstacles we encountered, and some mistakes we made in our first real React/Flux application.
+Learn the basics of ReactJS and how it is used with the Flux framework and CommonJS libraries to piece together your own fully features framework.  We will first cover the basics of React and the few library specifc constructs you need to know to build a React view layer from scratch.  
+
+We will then go into flux to show how this framework can help you organize your application and create a UI that is responsive to your changing data.  
+
+Next we will walk through a sample project to show you how they work together in a small, controlled, but somewhat realistic application.  
+
+Finally, we will cover why React and Flux worked well for our Reactor project, the benefits it provided, a few of the obstacles we encountered, and some mistakes we made in our first real React/Flux application.
 
 ###Presenters
 * Sean Teare
@@ -20,8 +26,8 @@ You must have nodejs and npm installed on your machine
 #####Setup
 
 1. npm install
-2. grunt build
-3. node server.js
+2. grunt build (This will sit once done, running a watch on the code. Just leave it running.)
+3. In a different console window, start up your node server by running: node server.js
 4. In browser, go to http://localhost:7000/commonjs-demo.  This probably will not work in IE or Safari as I have not added the shims and the shams.
 
 #####Troubleshooting
