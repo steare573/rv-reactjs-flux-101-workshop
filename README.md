@@ -26,10 +26,8 @@ You must have nodejs and npm installed on your machine
 #####Setup
 
 1. npm install
-2. grunt build
-	This will sit once done, running a watch on the code. Just leave it running.
-3. In a different console window, start up your node server:
- 	node server.js
+2. grunt build (This will sit once done, running a watch on the code. Just leave it running.)
+3. In a different console window, start up your node server by running: node server.js
 4. In browser, go to http://localhost:7000/commonjs-demo.  This probably will not work in IE or Safari as I have not added the shims and the shams.
 
 #####Troubleshooting
