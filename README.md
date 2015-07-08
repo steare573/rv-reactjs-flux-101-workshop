@@ -14,6 +14,8 @@ Finally, we will cover why React and Flux worked well for our Reactor project, t
 * Sean Teare
 * Michael Anderson
 
+###Slides
+You can find the slides in slides directory in this project, or you can view them [here]( http://slides.com/rift573/deck/fullscreen)
 ###Demo
 ![ScreenShot](https://cloud.githubusercontent.com/assets/898480/8462067/2de0b914-1fff-11e5-80b9-c64fe3b50f90.png)
 
