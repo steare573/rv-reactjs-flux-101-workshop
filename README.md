@@ -49,6 +49,7 @@ npm -g grunt webpack
 	* [React Performance Tooling](https://facebook.github.io/react/docs/perf.html)
 	* [React v0.13.0 Beta](https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html)
 		* Use ES6 (Native classes being the main focus relating to React)
+	* [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 * [Flux](https://facebook.github.io/flux/)
 	* [Github](https://github.com/facebook/flux)
 	* Other flux frameworks
